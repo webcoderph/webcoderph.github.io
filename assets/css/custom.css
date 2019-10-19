@@ -96,7 +96,7 @@ body, html {
 }
 
 .bgcover {
-  background-image: url("/assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+  background-image: url("/assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg"); /*Photo by Ales Nesetril on Unsplash*/
   background-position: center;
   background-repeat:  no-repeat;
   background-attachment: fixed;

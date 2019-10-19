@@ -1,12 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 100% !important;
-  max-width: 100% !important;
+
 }
 
 body, html {
   height: 100%;
+
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: white;
@@ -31,7 +31,7 @@ body, html {
   content: "";
   display: block;
   height: 1px;
-  width: 300px;
+
   background-color: #FFE7D0;
   position: relative;
   top: -10px;
@@ -40,7 +40,7 @@ body, html {
 
 #profile-pic {
   border: 5px solid #2B241E;
-  margin-top: 35px;
+  margin: 35px;
 }
 
 #about {
@@ -48,7 +48,7 @@ body, html {
 
 }
 
-#footer, #about {
+.footer, #about {
   background-color: #655B50;
 }
 

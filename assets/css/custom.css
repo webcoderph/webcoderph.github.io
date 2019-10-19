@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100% !important;
+  max-width: 100% !important;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+.fab {
+  color: #2B241E !important;
+}
+
+.heading {
+  font-weight: bolder;
+}
+
+.mylist {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 200px));
+  margin-top: 15px;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.heading:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 300px;
+  background-color: #FFE7D0;
+  position: relative;
+  top: -10px;
+  margin-left: 102px;
+}
+
+#profile-pic {
+  border: 5px solid #2B241E;
+  margin-top: 35px;
+}
+
+#about {
+  border-top: 2px solid #2B241E;
+
+}
+
+#footer, #about {
+  background-color: #655B50;
+}
+
+#about {
+  padding: 25px;
+}
+#about img{
+  width: 250px;
+}
+
+#webname {
+  font-family: 'Baloo Tamma', cursive;
+  font-size: 32px;
+}
+
+#webname span.last {
+  color: #FF4343;
+}
+
+/* OVERWRITE BOOTSTRAP*/
+.navbar-header {
+  margin-top: 8px;
+}
+
+.nav-brand {
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+}
+.nav-brand:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.nav>li>a {
+  color: #fff;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background: none;
+  color: #ccc;
+
+}
+
+.bgcover {
+  background-image: url("/assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.85;
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  color: #fff;
+  font-size: 32px;
+  border-bottom: 2px solid #fff;
+}
+
+.caption span.description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.caption span.description::before {
+  color: #fff;
+  content: "I'm a ";
+}
+
+.caption div.type-container {
+  margin-top: 50px;
+}
+
+/* Cursor */
+.typed-cursor {
+  margin-left: 5px;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #fff;
+}
+
+/* If fade out option is set */
+.typed-fade-out {
+  margin-left: 5px;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #fff;
+}

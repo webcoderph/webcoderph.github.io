@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div class="bgcover">
+  {% include nav.html %}
+  <div class="caption">
+    <span class="border">Hello! I'm Maynard</span><br>
+    <div class="type-container">
+      <span class="description"></span>
+    </div>
+  </div>
+</div>
+<div class="profile" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img id="profile-pic" class="img-circle" src="/assets/images/webcoderph.jpg" />
+      </div>
+      <div class="col-md-8">
+        <h3 class="heading">About Me</h3>
+
+        <p>Is a Software Engineer with strong Back-end skills using Ruby base in Philippines</p>
+        <p>10 years of experience with web technologies</p>
+
+        <h4>Here's a few technologies I've been working with recently:</h4>
+        <ul class='mylist'>
+          <li>Ruby on Rails</li>
+          <li>MySQL</li>
+          <li>ReactJS</li>
+          <li>Elasticsearch</li>
+          <li>Sphinx</li>
+          <li>Redis</li>
+          <li>Sidekiq</li>
+        </ul>
+
+        <h4>Follow me:</h4>
+        <a href="https://github.com/webcoderph"><i class="fab fa-2x fa-github"></i></a> <a href="https://twitter.com/webcoderph"><i class="fab fa-2x fa-twitter"></i></a> <a href="https://webcoderph.tumblr.com"><i class="fab fa-2x fa-tumblr"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <center>
+    © Copyright 2019 webcoderph
+  </center>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    var options = {
+    strings: ['Ruby Developer', 'ReactJs Developer', 'Coffee lover', 'Gamer'],
+    typeSpeed: 60,
+    backSpeed: 60,
+    loop: true
+    };
+
+    var typed = new Typed('.description', options);
+  })
+
+</script>
+</body>
+
+</html>
